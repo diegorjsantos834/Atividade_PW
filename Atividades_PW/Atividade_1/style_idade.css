@@ -1,0 +1,126 @@
+/*================================Fonte==========================*/
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+/*===============================Reset===========================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Momo Trust Display', monospace;
+}
+
+/*===============================Estilo Geral===========================*/
+body{
+    background-image: url(fundo/Fundo.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     height: 500px;
+     width: 800px;
+     margin: 100px auto;
+     border: 1.5px solid #e7e7e7;
+     border-radius: 4px;
+     background-color: #1F1A24;
+     box-shadow: 0px 8px 90px 0px rgba(238, 238, 238, 0.37);
+}
+
+.card-header h2{
+    color: #F5F5F5;
+    font-size: 3rem;
+    padding-bottom: 15px ;
+}
+
+.card-header p{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    color: #F5F5F5;
+    font-size: 1.2rem;
+    padding-bottom: 20px ;
+}
+
+.Link a{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #F5F5F5;
+    font-size: 1rem;
+    text-align: center;
+}
+.Link a:hover{
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #1F1A24;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.card-body{
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.card-body label{
+    display: block;
+    align-items: center;
+    justify-self: center;
+}
+
+.ano{
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.bnt{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #e7e7e7;
+    background-color: #1F1A24;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 6px 10px 0px rgba(238, 238, 238, 0.37);
+}
+.bnt:hover{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #1F1A24;
+    background-color: #e7e7e7;
+    color: #1F1A24  ;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resu{
+    display: block;
+    align-items: center;
+    justify-self: center;
+    color: #F5F5F5;
+    font-size: 1.2rem;
+    padding-top: 20px ;
+}
